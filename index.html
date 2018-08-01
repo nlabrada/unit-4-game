@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yeet Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/Users/nanette/Desktop/unit-4-game/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/Users/nanette/Desktop/unit-4-game/assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Users/nanette/Desktop/unit-4-game/assets/javascript/game.js"></script>
+</head>
+<body>
+    <!---Game Heading-->
+    <div id="game-name">
+        <h1>
+            This town ain't big enough for the four of us!
+        </h1>
+    </div>
+    <!--The game instructions-->
+    <div id="instructions">
+        <p>
+            You'll be given a random number at the start of the game.
+        </p><br>
+        <p>
+            There are four cowboy emojis below. By clicking on a cowboy you will add a specific amount of points to your score.
+        </p><br>
+        <p>
+            You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+        </p><br>
+        <p>
+            The value of each cowboy is hidden from you until you click on it.
+        </p><br>
+        <p>
+            Each time when the game starts, the game will change the values of each cowboy.
+        </p>
+    </div>
+    <!-- Here's your stats -->
+        <div id= "score-goal">
+        </div>
+        <div id="wins-losses-container">
+            <h2 id="win-lose-message"></h2>
+            <h2 id="wins-count">Wins: <span id="wins"></span></h2><br>
+            <h2 id="losses-count">Losses: <span id="losses"></span></h2><br>
+        </div>
+    <!-- Row with all your pictures -->
+    <div class="image-container">
+            <img id = "sad-yeehaw-img" src="/Users/nanette/Desktop/unit-4-game/assets/images/sad-yeehaw.jpg" alt="sad yeehaw" width="100px">
+            <img id="contemplative-yeehaw-img" src="/Users/nanette/Desktop/unit-4-game/assets/images/contemplative-yeehaw.jpg" alt="contemplative yeehaw" width="100px">
+            <img id="mad-yeehaw-img" src="/Users/nanette/Desktop/unit-4-game/assets/images/mad-yeehaw.jpg" alt="mad yeehaw" width="100px">
+            <img id="clown-yeehaw-img" src="/Users/nanette/Desktop/unit-4-game/assets/images/clown-yeehaw.jpg" alt="clown yeehaw" width="100px">
+    </div>
+<!-- Total Score saying -->
+    <div id="total-score-text">
+        <h2>
+            Your total score is:
+        </h2>
+    </div>
+<!-- User score displayed here -->
+    <div id="user-score">
+    </div>
+
+</body>
+</html>

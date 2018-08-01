@@ -1,0 +1,108 @@
+#game-name{
+    background-color: black;
+    font-size: 30px;
+    float: left;
+    color: aqua;
+    margin: 0 auto;
+    margin-left: 1%;
+    padding: 30px;
+}
+
+#instructions{
+    clear: both;
+    background-color: black;
+    font-size: 20px;
+    position: relative;
+    float: left;
+    color: aqua;
+    margin: 0 auto;
+    margin-left: 1%;
+    margin-right: 20%;
+    padding: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 1.4;
+}
+
+#score-goal {
+    clear: both;
+    background-color: black;
+    font-size: 30px;
+    color: aqua;
+    clear: both;
+    position: relative;
+    margin-left: 1%;
+    margin-right: 80%;
+    padding-bottom: 80px;
+}
+
+#wins-losses-container {
+    clear: both;
+    background-color: black;
+    font-size: 30px;
+    color: aqua;
+    position: absolute;
+    right: 50%;
+    left: 30%;
+    bottom: 150px;
+    margin-top: 1%;
+}
+#win-lose-message {
+    text-align: center;
+    font-size: 10px;
+}
+
+#sad-yeehaw-img{
+    clear: both;
+    position: absolute;
+    margin: 1%;
+    margin-top: 7%;
+
+}
+
+#contemplative-yeehaw-img{
+    clear: both;
+    position: absolute;
+    margin-top: 7%;
+    left: 150px;
+
+}
+
+#mad-yeehaw-img{
+    clear: both;
+    position: absolute;
+    margin-top: 7%;
+    left: 300px;
+
+}
+
+#clown-yeehaw-img{
+    clear: both;
+    position: absolute;
+    margin-top: 7%;
+    left: 450px;
+
+}
+
+#total-score-text{
+    clear: both;
+    background-color: black;
+    font-size: 30px;
+    color: aqua;
+    margin: 1%;
+    margin-top: 15%;
+    margin-right: 65%;
+
+
+}
+
+#user-score{
+    clear: both;
+    background-color: black;
+    font-size: 30px;
+    color: aqua;
+    margin: 1%;
+    margin-top: 10px;
+    padding: 5%;
+    margin-right: 65%;
+}
