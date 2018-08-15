@@ -5,6 +5,14 @@
 
 .card{
     margin: 1%;
+    border-color: #579dc5;
+
+}
+
+.card-header{
+    background: #d5dcfc;
+    border-color: #579dc5;
+    color: #579dc5;
 }
 
 .card-title{
@@ -23,7 +31,7 @@
     font-size: 20px;
     position: relative;
     float: left;
-    color: aqua;
+    color: #579dc5;
     margin: 0 auto;
     margin-left: 1%;
     margin-right: 20%;
@@ -47,62 +55,88 @@
     margin-right: 15%;
     margin-top: 1.2%;
 }
-#win-lose-message {
+/* #win-lose-message {
     text-align: center;
     font-size: 10px;
+} */
+
+#images-boi{
+    padding-top: 5%;
+    padding-left: 30%;
 }
 
 #sad-yeehaw-img{
     clear: both;
-    position: absolute;
-    margin: 1%;
+    position: relative;
     margin-top: 7%;
 
 }
 
 #contemplative-yeehaw-img{
     clear: both;
-    position: absolute;
+    position: relative;
     margin-top: 7%;
-    left: 150px;
 
 }
 
 #mad-yeehaw-img{
     clear: both;
-    position: absolute;
+    position: relative;
     margin-top: 7%;
-    left: 300px;
 
 }
 
 #clown-yeehaw-img{
     clear: both;
-    position: absolute;
+    position: relative;
     margin-top: 7%;
-    left: 450px;
 
 }
 
 #total-score-text{
     clear: both;
-    background-color: black;
-    font-size: 30px;
-    color: aqua;
-    margin: 1%;
-    margin-top: 15%;
-    margin-right: 65%;
-
-
+    position: relative;
+    margin-left: 42.5%;
+    margin-top: 5%;
 }
 
-#user-score{
-    clear: both;
-    background-color: black;
-    font-size: 30px;
-    color: aqua;
-    margin: 1%;
-    margin-top: 10px;
-    padding: 5%;
-    margin-right: 65%;
+
+@media screen and (max-width: 640px) {
+
+    #score-goal-btn {
+        clear: both;
+        position: absolute;
+        /* float: left; */
+        margin-left: 5%;
+        margin-top: 1%;
+    
+    }
+    
+    #wins-losses-container {
+        clear: both;
+        float: right;
+        margin-right: 5%;
+        margin-top: 1.2%;
+    }
+
+    #images-boi{
+        clear: both;
+        position: relative;
+        padding-left: 15%;
+        width: 100%;
+    }
+
+    img {
+        width: 20%;
+        height: auto;
+    }
+
+    #total-score-text{
+        clear: both;
+        position: relative;
+        margin-left: 30%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
 }
