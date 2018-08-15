@@ -6,6 +6,7 @@ var getRandomNumber;
 var clownYeehawVal, contemplativeYeehawVal, madYeehawVal, sadYeehawVal;
 
 $(document).ready( function() {
+
 // Assign the value
     getRandomNumber ();
 // Assign Onclick Functions
@@ -48,13 +49,13 @@ $(document).ready( function() {
     if (userScore === myRandomNumber) {
         wins = wins + 1;
         $("#wins").text(wins);
-        $("#win-lose-message").text("YER DARN TOOTIN'!");
+        alert("Ya darn tootin!");
         reset();
     }
     else if (userScore > myRandomNumber){
         losses = losses + 1;
         $("#losses").text(losses);
-        $("#win-lose-message").text("DANG NABBIT!");
+        alert("Dang nabbit!");
         reset();
     }
 }
@@ -62,5 +63,6 @@ $(document).ready( function() {
         userScore = 0;
         $("#user-score").text(userScore);
         getRandomNumber ();
+
     }
 
