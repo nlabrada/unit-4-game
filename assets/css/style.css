@@ -1,11 +1,20 @@
 #game-name{
-    background-color: black;
     font-size: 30px;
-    float: left;
-    color: aqua;
-    margin: 0 auto;
-    margin-left: 1%;
-    padding: 30px;
+    text-align: center;
+}
+
+.card{
+    margin: 1%;
+}
+
+.card-title{
+    text-decoration: underline;
+}
+
+.btn{
+ background: #d5dcfc;
+ color: #579dc5;
+ border-color: #579dc5;
 }
 
 #instructions{
@@ -24,28 +33,19 @@
     line-height: 1.4;
 }
 
-#score-goal {
+#score-goal-btn {
     clear: both;
-    background-color: black;
-    font-size: 30px;
-    color: aqua;
-    clear: both;
-    position: relative;
-    margin-left: 1%;
-    margin-right: 80%;
-    padding-bottom: 80px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 1%;
+
 }
 
 #wins-losses-container {
     clear: both;
-    background-color: black;
-    font-size: 30px;
-    color: aqua;
-    position: absolute;
-    right: 50%;
-    left: 30%;
-    bottom: 150px;
-    margin-top: 1%;
+    float: right;
+    margin-right: 15%;
+    margin-top: 1.2%;
 }
 #win-lose-message {
     text-align: center;

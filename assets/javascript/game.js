@@ -36,12 +36,12 @@ $(document).ready( function() {
 });
     // Making emoji val & score function
     function getRandomNumber (){
-        myRandomNumber = Math.floor(Math.random() * (30 - 1 + 1) + 1);
+        myRandomNumber = Math.floor(Math.random() * (50 - 1 + 1) + 1);
         $("#score-goal").text(myRandomNumber);
-        clownYeehawVal = Math.floor(Math.random()*(15-1+1)+1);
-        contemplativeYeehawVal = Math.floor(Math.random()*(15-1+1)+1);
-        madYeehawVal = Math.floor(Math.random()*(15-1+1)+1);
-        sadYeehawVal = Math.floor(Math.random()*(15-1+1)+1);
+        clownYeehawVal = Math.floor(Math.random()*(10-1+1)+1);
+        contemplativeYeehawVal = Math.floor(Math.random()*(10-1+1)+1);
+        madYeehawVal = Math.floor(Math.random()*(10-1+1)+1);
+        sadYeehawVal = Math.floor(Math.random()*(10-1+1)+1);
     }
     // For wins & losses
     function updateWinsLosses () {
