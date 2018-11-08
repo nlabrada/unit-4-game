@@ -1,5 +1,5 @@
 # YEET COLLECTOR
-Find the deployed version here: https://nlabrada.github.io/unit-4-game/
+Find the deployed version here: https://nlabrada.github.io/yeet-collector/
 
 ## Description:
 * User tries to reach score goal by clicking on emojis
