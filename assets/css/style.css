@@ -3,13 +3,21 @@ body{
 }
 .jumbotron{
     margin-top: 5%;
-
+    background: #d5dcfc;
+}
+.display-4{
+    font-size: 160%;
+    font-family: 'Kanit', sans-serif;
 }
 #start-btn{
     margin: auto;
     display: block;
     background: #d5dcfc;
     color: #579dc5;
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+
 }
 .boxes{
     margin: auto;
@@ -23,15 +31,12 @@ body{
     margin-bottom: 5%;
     width: 150px;
 }
-
 #scores-div{
     margin-top: 5%;
 }
-
 #emogies-div{
     margin-top: 10%;
 }
-
 .emogies{
     margin-bottom: 5%;
     padding: 5%;
@@ -40,7 +45,6 @@ body{
     border-radius: 8px;
     border-color: #d5dcfc;
 }
-
 #user-score-div{
     margin: auto;
     margin-top: 10%;
@@ -54,9 +58,7 @@ body{
     background-color: #76a2bb;
     font-weight: bold;
     color: #d5dcfc;
-    
 }
-
 .span-fonts{
     font-weight: bold;
 }
@@ -65,16 +67,16 @@ body{
     #scores-div{
         margin-top: 1%;
     }
-    
     #emogies-div{
         margin-top: 2%;
     }
-    
     .emogies{
         width: 200px;
     }
-    
     #user-score-div{
-        margin-top: -5%;
+        margin-top: -23%;
+    }
+    .display-4{
+        font-size: 300%;
     }
 }
