@@ -1,142 +1,80 @@
-#game-name{
-    font-size: 30px;
-    text-align: center;
+body{
+    background-color: #76a2bb;
 }
-
-.card{
-    margin: 1%;
-    border-color: #579dc5;
+.jumbotron{
+    margin-top: 5%;
 
 }
-
-.card-header{
+#start-btn{
+    margin: auto;
+    display: block;
     background: #d5dcfc;
-    border-color: #579dc5;
     color: #579dc5;
 }
-
-.card-title{
-    text-decoration: underline;
+.boxes{
+    margin: auto;
+    color: #d5dcfc;
+    font-weight: bold;
+    border-color: #d5dcfc;
+    border: solid;
+    border-width: 300%;
+    border-radius: 8px;
+    padding: 5%;
+    margin-bottom: 5%;
+    width: 150px;
 }
 
-.btn{
- background: #d5dcfc;
- color: #579dc5;
- border-color: #579dc5;
-}
-
-#instructions{
-    clear: both;
-    background-color: black;
-    font-size: 20px;
-    position: relative;
-    float: left;
-    color: #579dc5;
-    margin: 0 auto;
-    margin-left: 1%;
-    margin-right: 20%;
-    padding: 30px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    line-height: 1.4;
-}
-
-#score-goal-btn {
-    clear: both;
-    position: absolute;
-    margin-left: 15%;
-    margin-top: 1%;
-
-}
-
-#wins-losses-container {
-    clear: both;
-    float: right;
-    margin-right: 15%;
-    margin-top: 1.2%;
-}
-/* #win-lose-message {
-    text-align: center;
-    font-size: 10px;
-} */
-
-#images-boi{
-    padding-top: 5%;
-    padding-left: 30%;
-}
-
-#sad-yeehaw-img{
-    clear: both;
-    position: relative;
-    margin-top: 7%;
-
-}
-
-#contemplative-yeehaw-img{
-    clear: both;
-    position: relative;
-    margin-top: 7%;
-
-}
-
-#mad-yeehaw-img{
-    clear: both;
-    position: relative;
-    margin-top: 7%;
-
-}
-
-#clown-yeehaw-img{
-    clear: both;
-    position: relative;
-    margin-top: 7%;
-
-}
-
-#total-score-text{
-    clear: both;
-    position: relative;
-    margin-left: 42.5%;
+#scores-div{
     margin-top: 5%;
 }
 
+#emogies-div{
+    margin-top: 10%;
+}
 
-@media screen and (max-width: 640px) {
+.emogies{
+    margin-bottom: 5%;
+    padding: 5%;
+    /* background-color: white; */
+    border: solid;
+    border-radius: 8px;
+    border-color: #d5dcfc;
+}
 
-    #score-goal-btn {
-        clear: both;
-        position: absolute;
-        /* float: left; */
-        margin-left: 5%;
+#user-score-div{
+    margin: auto;
+    margin-top: 10%;
+    border: solid;
+    border-width: 500%;
+    border-radius: 8px;
+    border-color: #d5dcfc;
+    width: 200px;
+    text-align: center;
+    padding: 3%;
+    background-color: #76a2bb;
+    font-weight: bold;
+    color: #d5dcfc;
+    
+}
+
+.span-fonts{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    #scores-div{
         margin-top: 1%;
-    
     }
     
-    #wins-losses-container {
-        clear: both;
-        float: right;
-        margin-right: 5%;
-        margin-top: 1.2%;
-    }
-
-    #images-boi{
-        clear: both;
-        position: relative;
-        padding-left: 15%;
-        width: 100%;
-    }
-
-    img {
-        width: 20%;
-        height: auto;
-    }
-
-    #total-score-text{
-        clear: both;
-        position: relative;
-        margin-left: 30%;
+    #emogies-div{
         margin-top: 2%;
-        margin-bottom: 2%;
     }
     
+    .emogies{
+        width: 200px;
+    }
+    
+    #user-score-div{
+        margin-top: -5%;
+    }
 }

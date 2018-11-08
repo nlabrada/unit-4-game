@@ -16,48 +16,76 @@
 </head>
 
 <body>
-    <!---Game Heading-->
-    <div class="card">
-        <h5 class="card-header" id="game-name">This town ain't big enough for the four of us!</h5>
-            <div class="card-body">
-                <h5 class="card-title">The Breakdown</h5>
-                <p class="card-text">
-                    You'll be given a random number at the start of the game.<br>
-                    There are four cowboy emojis below. By clicking on a cowboy you will add a specific amount of points to your score.<br>
-                    You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.<br>
-                    The value of each cowboy is hidden from you until you click on it.<br>
-                    Each time when the game starts, the game will change the values of each cowboy.<br>
-                </p>
-            </div>
-      </div>
-    <!--Here's your stats-->
-    <button type="button" class="btn" id="score-goal-btn" disabled>
-        Score Goal: <span class="badge" id="score-goal"></span>
-    </button>
-    <div id="wins-losses-container">
-        <button type="button" class="btn" disabled>
-            Wins: <span class="badge" id="wins"></span>
-        </button>
-        <button type="button" class="btn" disabled>
-            Losses: <span class="badge" id="losses"></span>
-        </button>
-    </div>
-    <!--Row with all your pictures-->
-    <div   class="container" id="images-boi">
-        <!-- <div id="winner-msg-div"></div> -->
-        <!-- <div id="loser-msg-div"></div> -->
-            <p>
-            <img id = "sad-yeehaw-img" src="assets/images/sad-yeehaw.jpg" alt="sad yeehaw" width="100px">
-            <img id="contemplative-yeehaw-img" src="assets/images/contemplative-yeehaw.jpg" alt="contemplative yeehaw" width="100px">
-            <img id="mad-yeehaw-img" src="assets/images/mad-yeehaw.jpg" alt="mad yeehaw" width="100px">
-            <img id="clown-yeehaw-img" src="assets/images/clown-yeehaw.jpg" alt="clown yeehaw" width="100px">
+    <!-- HOME -->
+    <div class="container">
+        <div class="jumbotron" id="home-div">
+            <h1 class="display-4 text-center">Yeet Collector</h1>
+            <p class="lead text-center">This town ain't big enough for the four of us!</p>
+            <hr class="my-4">
+            <p class="text-justify">
+                You'll be given a random number at the start of the game.
+                There are four cowboy emojis below. By clicking on a cowboy you will add a specific amount of points to your score.
+                You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+                The value of each cowboy is hidden from you until you click on it.
+                Each time when the game starts, the game will change the values of each cowboy.
             </p>
+
+            <button id="start-btn" class="btn btn-lg" role="button">Start!</button>
+            </div>
+        </div>
+
+        <!--Here's your game page-->
+        <div id="game-div">
+            <div id="scores-div">
+                <div class="row text-center">
+                    <div class="col-12 col-md-4">
+                        <div class="boxes text-center">
+                            SCORE GOAL: <br><span class="span-fonts" id="score-goal"></span>
+                        </div>  
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="boxes">
+                            WINS:<br> <span class="span-fonts" id="wins"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="boxes">
+                            LOSSES: <br><span class="span-fonts" id="losses"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div id="emogies-div">
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <img class="emogies" id="sad-yeehaw-img" src="assets/images/sad-yeehaw.png" alt="sad yeehaw" width="100px">
+                    </div>
+                    <div class="col-6 text-center">
+                        <img class="emogies" id="contemplative-yeehaw-img" src="assets/images/contemplative-yeehaw.png" alt="contemplative yeehaw" width="100px">
+                    </div>
+                    <div class="col-6 text-center">
+                        <img class="emogies" id="mad-yeehaw-img" src="assets/images/mad-yeehaw.png" alt="mad yeehaw" width="100px">
+                    </div>
+                    <div class="col-6 text-center">
+                        <img class="emogies" id="clown-yeehaw-img" src="assets/images/clown-yeehaw.png" alt="clown yeehaw" width="100px">
+                    </div>
+                </div>
+            </div>
+
+            <!--Total Score saying-->
+            <div id="user-score-div">
+                YOUR TOTAL SCORE: <span class="span-fonts" id="user-score"></span>
+            </div>
+
+        </div>
+
     </div>
-<!--Total Score saying-->
-    <button type="button" class="btn" id="total-score-text" disabled>
-        Your total score is: <span class="badge" id="user-score"></span>
-    </button>
-<!--JS link-->
+
+
+    <!--JS link-->
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
